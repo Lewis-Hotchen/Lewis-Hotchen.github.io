@@ -1,0 +1,10 @@
+.container {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+}
+
+.nav {
+    height: 20%;
+    background-color: gray;
+}
