@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
 <head>
     <!-- Required meta tags -->
@@ -7,17 +7,20 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
     <title>Hello, world!</title>
     <style>
         .cust-button {
             width: 33%;
             height: 100%;
         }
+        .card .card {
+            cursor: pointer;
+            text-align: justify;
+        }
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="color: #fff">
+    <nav class="navbar navbar-expand-lg fixed-top  navbar-dark bg-dark" style="color: #fff">
         <a class="navbar-brand" href="#">Lewis Hotchen</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -29,11 +32,11 @@
                     <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#">CV</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Dropdown
+                        Github
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="#">Action</a>
@@ -42,9 +45,6 @@
                         <a class="dropdown-item" href="#">Something else here</a>
                     </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
-                </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -52,8 +52,123 @@
             </form>
         </div>
     </nav>
-    <div class="content">
+    <div style="margin: 5%;" class="content">
+        <div class="card" style="width: 50%;">
+            <div class="card-body">
+                <h5 class="card-title">CV</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Lewis Hotchen</h6>
+                <h6 class="card-subtitle mb-2 text-muted">07518161948</h6>
+                <h6 class="card-subtitle mb-2 text-muted">10 Kent Avenue, Larne</h6>
+                <h6 class="card-subtitle mb-2 text-muted">BT40 1ND</h6>
+                <p class="card-text"><div id="accordion">
+    <div class="card" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        <div class="card-header text-white bg-dark" id="headingOne">
+            <h5 class="mb-0">
+                Personal Profile
+            </h5>
+        </div>
 
+        <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+                Knowledgeable and aspiring Software Engineer striving to be successful in the Software Development Industry in Northern Ireland.
+                Currently studying a Foundation Degree in Software Engineering at Belfast Metropolitan College and seeking industry placement for my final term of the course.
+                Evidence based strong logical and reasoning skills, and able to work with time constraints and under pressure using SMART goal methodology.
+                I aim to be an effective member of any development team utilising a collaborative approach to achieve objectives.
+            </div>
+        </div>
+    </div>
+    <div class="card" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        <div class="card-header text-white bg-dark" id="headingTwo">
+            <h5 class="mb-0">
+                Education
+            </h5>
+        </div>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">
+                <h5 class="card-subtitle mb-2">Belfast Metropolitan College, Millfield: Level 5 Foundation Degree in Software Engineering Accredited by Ulster University</h5>
+                <h6 class="card-subtitle mb-2 text-muted">September 2016 – January 2018: Year 1 Grade 72% - Year 2 Grade pending (Expecting 70% or higher)</h6>
+                Programming: Further study into Java and data structures. Microsoft Accredited MTA fundamentals in OOP, C#, Visual Studio and Database querying (SQL).
+                Mathematics: Foundation of Boolean logic and how it applies to programming. Logic Networks, Matrices, Propositional Logic.
+                Web programming: Development in C# and ASP.NET. Connecting to databases and querying. Front end design (HTML and CSS). Industry standard documentation (Testing, Specifications etc.) Client-side scripting in JavaScript.
+                Data Analysis and Design: Microsoft access, creating databases, front-end and back-end design of databases, SQL programming and project management and methodologies such as Agile and SSDM.
+                Year 1 Group Project: My responsibilities were
+                Core foundation programming for the program
+                QA and testing to ensure a bug-free program
+
+                <h5 class="card-subtitle mb-2" style="padding-top: 20px;">Belfast Metropolitan College, Millfield: BTEC Level 3 Extended Diploma in IT</h5>
+                <h6 class="card-subtitle mb-2 text-muted">September 2014 – June 2016: Grades – Distinction*, Distinction, Distinction.</h6>
+                Graphic Design: Comprehensive knowledge of Photoshop.
+                Core programming skills: Learnt basics of VB.NET and Java and OOP fundamentals.
+                Hardware and Operating Systems: Gained wide ranging knowledge of internal components of a computer, e.g., CPU, GPU, RAM, Motherboards, PSU and storage. Also learned how operating systems manage memory and programs and how CPU processes information using the fetch execute cycle.
+
+                <h5 class="card-subtitle mb-2" style="padding-top: 20px;">Slemish College, Ballymena</h5>
+                <h6 class="card-subtitle mb-2 text-muted">September 2009 – June 2014</h6>
+                GCSE: 2 Bs and 5 Cs including Mathematics, English Language, English Literature and I.T.
+            </div>
+        </div>
+    </div>
+    <div class="card" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        <div class="card-header text-white bg-dark" id="headingThree">
+            <h5 class="mb-0">
+                Personal Interests and Achievements
+            </h5>
+        </div>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body">
+                <h5 class="card-subtitle mb-2">Computers</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Building PCs and Hardware</h6>
+                I enjoy working with computer hardware and built my own computer through independent research outside of my studies.
+                I have a genuine interest in the latest hardware technologies and keep up to date with new releases through web and literature research.
+                <h6 class="card-subtitle mb-2 text-muted" style="padding-top: 20px;">Personal Programming and Software Development</h6>
+                Along side the work I do within education I often write programs to sharpen my programming skills and learn as many technologies
+                as possible.
+                <h5 class="card-subtitle mb-2">Keeping fit</h5>
+                Regularly attend the gym to exercise to improve myself and stay physically healthy.
+            </div>
+        </div>
+    </div>
+    <div class="card" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+        <div class="card-header text-white bg-dark" id="headingFour">
+            <h5 class="mb-0">
+                Skills
+            </h5>
+        </div>
+        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+            <div class="card-body">
+                <h5 class="card-subtitle mb-2">Coding</h5>
+                I code in a range of programming languages; using primariy Visual Studio, and I have a sound knowledge of object-oriented programming.
+                I consistently self-teach new programming concepts and practice my core skills as a programmer.
+                <h5 class="card-subtitle mb-2"  style="padding-top: 20px;">Teamwork</h5>
+                Displayed through working in groups as part of projects and throughout my part time work.
+                <h5 class="card-subtitle mb-2"  style="padding-top: 20px;">Communication</h5>
+                Through communicating with customers in my part-time work and my studies
+                <h5 class="card-subtitle mb-2"  style="padding-top: 20px;">Punctuality</h5>
+                My part-time work demands excellent time-keeping and so I am a very punctual individual.
+                <h5 class="card-subtitle mb-2" style="padding-top: 20px;">Microsoft Packages</h5>
+                Proficient in Microsoft Office packages (Word, Excel, Access etc.) and online Microsoft Services such as
+                <ul>
+                    <li>
+                        Jira
+                    </li>
+                    <li>
+                        Sharepoint
+                    </li>
+                    <li>
+                        Atlassian
+                    </li>
+                    <li>
+                        Azure
+                    </li>
+                </ul>
+                <h5 class="card-subtitle mb-2" style="padding-top: 20px;">Motivated/Ambitious</h5>
+                Always striving to do and learn more and further my technological interests whilst also maintaining good grades in my education.
+            </div>
+        </div>
+    </div>
+</div>
+
+            </div>
+        </div>
     </div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
